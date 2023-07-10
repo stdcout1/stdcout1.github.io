@@ -22,12 +22,15 @@ title: stdcout1
 author: Nasir Khimani
 email: nasirkhimani@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Cool things I write about
+  Nasir Khimani
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: "blog.nasirk.ca"
 url: "https://blog.nasirk.ca" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nasir1009
 github_username:  stdcout1
+
+theme_config:
+  show_description: true
 
 # Build settings
 remote_theme: riggraz/no-style-please
