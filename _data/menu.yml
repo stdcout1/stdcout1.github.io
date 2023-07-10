@@ -1,0 +1,31 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: info
+    entries:
+      - title: blog.
+      - title: github
+        url: https://github.com/stdcout1
+
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: posts by category
+    post_list:
+      category: tech
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: tech-archive.html
+    post_list:
+      category: life
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: life-archive.html
+
+  - title: rss
+    url: feed.xml
