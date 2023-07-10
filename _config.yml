@@ -29,7 +29,7 @@ twitter_username: nasir1009
 github_username:  stdcout1
 
 # Build settings
-remote_theme: no-style-please
+remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
 
