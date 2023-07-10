@@ -29,7 +29,7 @@ twitter_username: nasir1009
 github_username:  stdcout1
 
 # Build settings
-theme: minima
+theme: no-style-please
 plugins:
   - jekyll-feed
 
