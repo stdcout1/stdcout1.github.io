@@ -10,7 +10,7 @@ entries:
       - title: linkedin
         url: https://www.linkedin.com/in/nasirkhimani/
       - title: cv
-        url: cv.nasirk.ca
+        url: https://cv.nasirk.ca/
 
   - title: all posts
     post_list:
