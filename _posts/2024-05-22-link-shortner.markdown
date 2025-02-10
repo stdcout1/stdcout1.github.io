@@ -29,7 +29,16 @@ list |> foldl ++ "" |> length -- pipe list into the fold function then into the 
 It has easy to use HTML library and easy enough web requests.
 
 For the back-end I opted for Rust.
-This language is safe and has my *favorite* web server library, Axum.
+It is safe and has my *favorite* web server library, Axum.
 For the database, I used a simple key-value store for Rust called jammydb.
 
-Tech-stack aside, 
+Tech-stack aside, the development was quite easy. Basically:
+
+- When someone wants to shorten a link:
+    - First check if it already exists, if it does just return that link.
+    - If not, choose a random word, add it the database and return the link.
+-  When someone wants to visit a link, just lookup in the database.
+
+Very easy! Anyways if you guys want to see it: [easyshort](https://github.com/stdcout1/easyshort).
+
+Thanks for reading :)
